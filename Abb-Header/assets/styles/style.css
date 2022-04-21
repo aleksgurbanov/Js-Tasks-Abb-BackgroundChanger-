@@ -1,0 +1,61 @@
+* {
+  overflow-x: hidden;
+}
+
+header .left #option .options {
+  border: none;
+  border-radius: none;
+  outline: none;
+  background-color: whitesmoke;
+  font-weight: bold;
+}
+
+header .top {
+  background-color: whitesmoke;
+}
+
+header .bottom .side-bar {
+  font-size: 25px;
+  cursor: pointer;
+}
+
+header .bottom .input {
+  width: 100%;
+}
+
+.side-bar-responsive {
+  display: block  !important;
+}
+
+.side {
+  display: none;
+}
+
+.side .top {
+  overflow-x: scroll;
+}
+
+.side .top a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 15px 15px;
+  padding: 5px 50px;
+  border: 1px solid gray;
+  text-decoration: none;
+  background-color: #b9b8b8;
+}
+
+.side .bottom {
+  overflow-y: scroll !important;
+}
+
+.side .bottom a {
+  margin: 20px 0;
+  border-bottom: 1px solid black;
+  padding: 5px;
+}
+/*# sourceMappingURL=style.css.map */
